@@ -1,4 +1,4 @@
-﻿#Questo srcipt in base al parametro passatogli ricava:
+﻿#Questo srcipt è ideato per essere utilizzato tramite NRPE, in base al parametro passatogli ricava:
 #	-Il numero di mailbox presenti
 #	-Lo spazio libero per ogni caselle (da testare)
 #	-Il numero di mail inviate e ricevute (da testare)
