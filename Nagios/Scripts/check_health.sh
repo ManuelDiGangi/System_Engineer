@@ -1,5 +1,9 @@
 #!/bin/bash
- 
+#Questo check è stato ideato per monitorare la "salute" di una macchina
+#	-cpu
+#	-ram
+#	-disco
+#	-ping
 if test -x /usr/bin/printf; then
 	ECHO=/usr/bin/printf
 else
