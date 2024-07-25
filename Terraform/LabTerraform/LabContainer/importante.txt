@@ -1,0 +1,4 @@
+terraform main deve contenere la descrizione dell'intero amviente
+
+container:
+Differentemente da windows che vuole formato IP 192.168.3.100, i container vogliono 192.168.3.100/24

@@ -1,0 +1,14 @@
+Lo script main.tf viene utilizzate per generare una VM su proxmox partendo da un template pre esistente. 
+I comandi da lanciare sono:
+	- terraform init 		-> inizializza le operaizoni, va lanciato ogni qualvolta il main viene modificato
+	- terraform plan -out="Plan1"   -> pianifica il Piano 1 per ottenere l'ambiente descritto nel main,
+	  il risultato di questo comando può essere:
+		* crate: la/le macchine non esistono e quindi verranno create
+		* change: la/le macchine esistono e quindi verrano modificate
+		* destroy: la/le macchine verranno eliminate
+	- terraform apply "Plan1"   	-> applica le modifiche precedentemente indicate.
+
+Questa versione vorrebbe iterare e creare più macchine, funziona ma non riesce a far partire il powershell
+Successivamente alla creazione della macchina, terraform fa partire uno script powershell presente sulla macchina
+per moficare: Nome macchina e impostazioni scheda di rete.
+
