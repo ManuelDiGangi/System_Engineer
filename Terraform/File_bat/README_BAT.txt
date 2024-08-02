@@ -1,3 +1,5 @@
+Questi file non sono necessari 
+
 Questi file sono ancora in fase di testing, l'obiettivo è automatizzare la configurazione post configurazione delle macchine 
 windows clone.
 Clonatore_windows.bat è il file principale, legge in input il numero di cloni da creare, e li genera uno per volta così da potervi connettere 
