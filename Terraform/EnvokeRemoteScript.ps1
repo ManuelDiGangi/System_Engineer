@@ -3,6 +3,7 @@
 #		This file is an alternative way to remote-exec in terraform		 #
 #																		 #
 ##########################################################################
+#This file works but return some connection error after the reboot of remote machine
 
 
 # Definisci il range di indirizzi IP
